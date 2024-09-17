@@ -1,0 +1,39 @@
+.image-container {
+    width: 1900px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Untuk Crop Image */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+}
+img {
+    float: left;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
